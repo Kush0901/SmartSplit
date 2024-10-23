@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bill Splitter</h1>
+        <div id="input-section">
+            <h2>Add People and Dishes</h2>
+            <input type="text" id="person" placeholder="Person's name">
+            <input type="text" id="dish" placeholder="Dish name">
+            <button id="add-person-dish-btn">Add</button>
+            <div id="people-dishes-list"></div>
+        </div>
+        <div id="cost-section">
+            <h2>Add Dish Costs</h2>
+            <input type="text" id="dish-cost-name" placeholder="Dish name">
+            <input type="number" id="dish-cost" placeholder="Dish cost">
+            <button id="add-dish-cost-btn">Add Cost</button>
+            <div id="dish-costs-list"></div>
+        </div>
+        <button id="calculate-split-btn">Calculate Split</button>
+        <div id="result-section">
+            <h2>Results</h2>
+            <div id="results"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
